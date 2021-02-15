@@ -1,0 +1,26 @@
+{
+  "name": "docker-helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install inherits && mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prycey77/docker-helloworld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prycey77/docker-helloworld/issues"
+  },
+  "homepage": "https://github.com/prycey77/docker-helloworld#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inherits": "^2.0.3",
+    "mocha": "^8.3.0"
+  }
+}
